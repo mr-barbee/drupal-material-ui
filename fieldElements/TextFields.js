@@ -52,7 +52,7 @@ const propTypes = {
   classes: PropTypes.object.isRequired,
   error: PropTypes.bool.isRequired,
   id: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
+  label: PropTypes.string,
   defaultValue: PropTypes.string,
   setInputValue: PropTypes.func.isRequired,
   required: PropTypes.bool,
